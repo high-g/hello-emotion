@@ -10,6 +10,10 @@ const Hello = () => {
 
 const hello = css`
   color: red;
+
+  @media (max-width: 768px) {
+    color: blue;
+  }
 `
 
 export default Hello
